@@ -8,5 +8,5 @@ RUN apt-get update \
 
 RUN mkdir script
 
-COPY ex2.py /script
-ENTRYPOINT [ "/script/ex2.py" ]
+COPY ex2.py script
+ENTRYPOINT [ "script/ex2.py" ] 
