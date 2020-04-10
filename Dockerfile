@@ -15,4 +15,3 @@ RUN pip3 install requests
 
 
 ENTRYPOINT [ "python3", "/script/ex2.py" ] 
-#ENTRYPOINT python3 /script/ex2.py
