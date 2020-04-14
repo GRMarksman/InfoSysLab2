@@ -21,4 +21,4 @@ if __name__=="__main__":
     while True:
         resp = main()
         print(resp)
-        time.sleep(60)
+        time.sleep(200)
